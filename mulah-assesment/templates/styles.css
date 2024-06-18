@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+h1 {
+  color: #F97304;
+  margin-bottom: 70px;
+  font-family: Lexend;
+  font-weight: 800;
+}
+
+h2 {
+  text-align: left; 
+  font-size: 50px;
+  font-family: playfair display;
+  color: gray;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+input[type="tel"], select {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #F97304;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left:70px;
+  padding-right: 70px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #e26101;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0.5px solid #ddd;
+}
+
+.powered-by {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.powered-by a {
+  text-decoration: none;
+}
+
+
+form {
+  margin-top: 20px;
+  text-align: left;
+  font-family: roboto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+  
+}
+
+input[type="text"], input[type="email"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.birthday-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.birthday-group input {
+  width: 30%;
+  margin-right: 5px;
+}
+
+.birthday-group input:last-child {
+  margin-right: 0;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.placeholder{
+  font-family: roboto;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}

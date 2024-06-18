@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulah Rewards</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container" style="height: 650px;">
+        <h1>MULAH</h1>
+        <h2 
+        style="font-size: 25px;
+        font-weight: 400;">Registration</h2>
+        <p 
+        style="text-align: left;
+        color: gray;
+        font-size: small;
+        font-family: roboto;"><i>Please Fill up your Details</i></p>
+        <form id="registration-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Name" required>
+            <p class="error-message" id="name-error"><i>*Please insert a name.</i></p>
+
+            <label for="birthday">Birthday</label>
+            <div class="birthday-group">
+                <input type="text" id="day" name="day" placeholder="DD" maxlength="2" required>
+                <input type="text" id="month" name="month" placeholder="MM" maxlength="2" required>
+                <input type="text" id="year" name="year" placeholder="YYYY" maxlength="4" required>
+            </div>
+            <p class="error-message" id="birthday-error"><i>*Please insert your birthday.</i></p>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+            <p class="error-message" id="email-error"><i>*Please insert a valid email address.</i></p>
+            <input type="checkbox" id="no-email" name="no-email"> <i style="color: gray;
+            font-size: small;">No email address</i>
+
+            
+            <hr>
+            <div class="button-container">
+                <button style="padding-left:100px; padding-right: 100px; border-radius: 15px;" type="submit">Continue</button>
+            </div>
+        </form>
+
+        <p class="powered-by">Powered by <a href="https://MulahRewards.com">MulahRewards.com</a></p>
+    </div>
+</body>
+</html>
